@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8f83d8"
+    android:orientation="horizontal"
+    tools:context=".Activity">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="264dp"
+        android:layout_height="124dp"
+
+
+        android:layout_marginLeft="123dp"
+
+        android:layout_marginTop="200dp"
+
+        android:layout_marginRight="129dp"
+        android:text="Welcome to facebook"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textScaleX="1"/>
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_alignStart="@+id/text"
+        android:layout_alignLeft="@+id/text"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="100dp"
+        android:hint="enter anything"
+        android:layout_centerHorizontal="true"
+        android:textColor="#48DC4E"
+        android:textColorHint="#48DC4E"
+        android:background="#FFFFFF"/>
+    <Button
+        android:id="@+id/button"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_below="@+id/edit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        />
+
+
+</RelativeLayout>
